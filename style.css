@@ -32,6 +32,10 @@ nav{
     justify-content: space-around;
 }
 
+.logo{
+    margin-right: 50px;
+}
+
 .item{
     width: 83px;
 }
@@ -47,11 +51,29 @@ nav{
 input{
     border: none;
     background-color:#F0F5FF;
-    width: 50vw;
+     width: 40vw; 
     font-size: 18px;
 }
 
 .material-symbols-outlined{
     color: rgb(124, 124, 124);
     padding:0 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap:25px;
+   
+}
+
+.right img{
+    width: 26px;
+}
+
+.login, .market, .cart{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    
 }
